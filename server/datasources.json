@@ -2,5 +2,9 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mysql_ds": {
+    "name": "mysql_ds",
+    "connector": "mysql"
   }
 }
