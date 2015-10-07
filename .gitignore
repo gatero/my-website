@@ -30,6 +30,7 @@ dist/
 
 # Logs and databases #
 ######################
+logs
 *.log
 *.sql
 *.sqlite
@@ -43,13 +44,21 @@ dist/
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# Logs #
-########
-logs
+*.csv
+*.dat
+*.iml
 *.log
-npm-debug.log*
-
-# Vim #
-#######
+*.out
+*.pid
+*.seed
+*.sublime-*
+*.swo
 *.swp
+*.tgz
+*.xml
+.idea
+.project
+.strong-pm
+coverage
+node_modules
+npm-debug.log*
