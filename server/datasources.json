@@ -4,7 +4,12 @@
     "connector": "memory"
   },
   "mysql_ds": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "daniel_ortega_db",
+    "password": "root",
     "name": "mysql_ds",
-    "connector": "mysql"
+    "connector": "mysql",
+    "user": "root"
   }
 }
