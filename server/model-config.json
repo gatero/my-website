@@ -35,5 +35,9 @@
   "Post": {
     "dataSource": "mysql_ds",
     "public": true
+  },
+  "Admin": {
+    "dataSource": "mysql_ds",
+    "public": true
   }
 }
