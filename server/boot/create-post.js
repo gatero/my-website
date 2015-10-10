@@ -41,7 +41,14 @@ module.exports = function(app) {
           lastUpdated: Date.now(),
           title: 'Titulo de prueba',
           content: 'Contenido de prueba',
-          adminId: admins[0].id
+          publisherId: admins[0].id
+        },
+        {
+          date: Date.now() - ( DAY_IN_MILLISECONDS * 7 ),
+          lastUpdated: Date.now(),
+          title: 'Titulo de prueba 2',
+          content: 'Contenido de prueba 2',
+          publisherId: admins[0].id
         }
       ], callback);
 

@@ -22,7 +22,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "admin": {
+      "type": "belongsTo",
+      "model": "Admin",
+      "foreignKey": "publisherId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
